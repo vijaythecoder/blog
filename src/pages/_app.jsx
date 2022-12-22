@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import mixpanel from 'mixpanel-browser';
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -16,8 +17,14 @@ function usePrevious(value) {
   return ref.current
 }
 
+
 export default function App({ Component, pageProps, router }) {
   let previousPathname = usePrevious(router.pathname)
+
+  useEffect(() => {
+    mixpanel.init('5329f512c7f9a5b8f8c79ff5ee91ec3b');
+    mixpanel.track('Site Visitor');
+  }, [mixpanel])
 
   return (
     <>
