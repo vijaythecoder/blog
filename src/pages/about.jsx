@@ -8,15 +8,16 @@ import {
   TwitterIcon,
   InstagramIcon,
   GitHubIcon,
-  LinkedInIcon,
+  LinkedInIcon, TikTok,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/vijayTupakulaPicture.JPG'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
+        target={'_blank'}
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
@@ -41,7 +42,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Vijay Tupakula</title>
         <meta
           name="description"
           content="I’m Spencer Sharp. I live in New York City, where I design the future."
@@ -61,58 +62,42 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
+              I’m <span className="text-indigo-500">Vijay Tupakula.</span> <br/> I design the
               future.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
-              </p>
-              <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
-              </p>
-              <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
-              </p>
-              <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
-              </p>
+              <h3 className="text-2xl font-bold">Currently</h3>
+              <p>I work as a senior software engineer at an ecommerce company based out of USA. I also tinker lot of machines or electronic devices to create a better home, Yes, lot of home automation. I post my home automation tutorials and demos on
+                 <a className="text-indigo-500" href="https://www.tiktok.com/@vijaysmarthome" target={'_blank'} rel="noreferrer"> TikTok</a> if you are interested</p>
+              <h3 className="text-2xl font-bold">History</h3>
+              <p>I started learning web technologies in 2006, at the age of 15, with html. I remember getting excited with html and css. I am self-learner and from that day I started exploring internet aiming to earn money with the skills I had at that time, its fun looking back at the web pages I used to make. Got one of my blog approved for google ad sense after lot of tries, the blog is based on Ethical Hacking, yes I have spent enough time to learn myself about Ethical hacking.</p>
+              <p>Around 2008 (during my Bachelors Degree), I discovered PHP and developed few dynamic websites. I used to contact local store owners and develop them small applications which were used by them for while. During my Bachelors degree, I was good at one thing for sure, programming. I fell in love with programming and decided to explore in this area.</p>
+              <p>Around 2012, I got a partime job from PHPPOS for the skills I have like php, mysql, codeigniter, html, css, jquery and I am good at them. While my part time goes well as a backend developer with minimum html and css work, I explored into themeforest market where I could sell my own themes, to do that I have to be really good at themes and after applying for more than 17 times, one of my item is approved and during this process of approval (8 months) I got really good with designing too. That is the time I started my own company Bootstrap Guru . My part time job and startup demanded me to learn lot of things as a web developer and I really liked it.</p>
+              <p>Over the years, I have worked on many freelance projects working to individuals and big companies. I have gained lot of skills on web development and few years ago fell in love with javascript (mainly es6 and VueJS). I have worked on many of own projects too and the big one of them is Larapos I lead many projects with many developers, reviewed the code, distribute the work basing on their skills, choose the best the technologies for a project. I have successfully completed custom projects to production.</p>
+
+              <p>I am also interested in Internet of things and using javascript I made lot of hardware projects. I do play PS4 games, binge watch.</p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
+              <SocialLink href="https://tiktok.com/@vijaysmarthome" icon={TikTok}>
+                Follow on Tiktok
+              </SocialLink>
+              <SocialLink href="https://twitter.com/vijaytupakula" icon={TwitterIcon}  className="mt-4">
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://www.instagram.com/vijaysmarthome/" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/vijaytupakula" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-                Follow on LinkedIn
-              </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:hello@vijaykumar.me"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                hello@vijaykumar.me
               </SocialLink>
             </ul>
           </div>

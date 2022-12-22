@@ -1,0 +1,64 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import signup from './signup.png'
+import api from './api.png'
+import getKey from './get-key.png'
+
+export const meta = {
+  author: 'Vijay Tupakula Wathan',
+  date: '2022-12-13',
+  title: 'Digital Movie Poster',
+  cover: 'OHOU-5UVIYQ',
+  description:
+    'Digital Movie Poster DIY',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<aside>
+    📎 If you haven’t checked out the TikTok Video on why and how I created this app, please check out.
+</aside>
+
+## 🚀 Digital Movie Poster
+
+## Instructions on how to get the URL
+
+To use this project, You need to get an API Key from the themoviedb.org.
+
+### Create an account on themoviedb.org
+
+<Image src={signup} />
+
+
+### Then goto settings, Goto API section and click on get API Key
+
+<Image src={api} />
+
+Fill the form shown as above
+
+Grab the API key  says API Key (v3 auth) or use the below link once you login [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
+
+<Image src={getKey} />
+
+Once you have the API Key, Replace the XXXXXXX in the following url and use it on your TV browser to play the slideshow of the latest TV shows.
+
+`https://vijaythecoder.github.io/digitalmovieposter/?apikey=XXXXXXXXX`
+
+<aside>
+    💡 One important thing is, once its loaded, using the remote tap/touch on the poster which will make it full screen.
+
+</aside>
+
+### Source code (Github)
+
+[https://github.com/vijaythecoder/digitalmovieposter](https://github.com/vijaythecoder/digitalmovieposter)
+
+### My plans to improve this application:
+
+Show Latest Movies in Theaters, DVDs, Streaming.
+
+Ability to configure which one which one of the above to show
+
+Ability to choose Platforms like HBO, Netflix, Disney, etc.
+
+Show extra info on the poster if needed like IMDB Rating, Now on playing on HBO, Netflix, etc.

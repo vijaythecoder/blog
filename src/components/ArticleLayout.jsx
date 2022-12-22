@@ -54,6 +54,7 @@ export function ArticleLayout({
                 <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                   {meta.title}
                 </h1>
+
                 <time
                   dateTime={meta.date}
                   className="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
@@ -61,8 +62,10 @@ export function ArticleLayout({
                   <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
                   <span className="ml-3">{formatDate(meta.date)}</span>
                 </time>
+                <img className="mt-4 rounded-md" src={'https://source.unsplash.com/' + meta.cover + '/600x300'} alt=""/>
               </header>
-              <Prose className="mt-8">{children}</Prose>
+
+              <Prose className="mt-6">{children}</Prose>
             </article>
           </div>
         </div>
