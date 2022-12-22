@@ -45,7 +45,7 @@ export default function About() {
         <title>About - Vijay Tupakula</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="I’m Vijay Tupakula. I live in Austin, TX, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">

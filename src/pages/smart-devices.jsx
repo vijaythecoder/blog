@@ -64,7 +64,7 @@ export default function Links() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Smart Devices - Vijay Tupakula</title>
         <meta
           name="description"
           content="Links to the Products that I show in my videos"
