@@ -47,13 +47,6 @@ const products = [
     imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09HM94VDS&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sripriyankama-20&language=en_US',
   },
   {
-    id: 6,
-    name: 'Logitech MX Master 3S - Wireless Performance',
-    description: 'Logitech MX Master 3S - Wireless Performance Mouse with Ultra-fast Scrolling.',
-    href: 'https://www.amazon.com/Govee-Changing-Dynamic-Bluetooth-Assistant/dp/B09B7NQT2K?crid=2EY01DSQA3X9G&keywords=smart%2Bbulbs%2Brgb&qid=1671753870&s=hi&sprefix=smart%2Bbulbs%2Brgb%2Ctools%2C123&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyWEJITkM3OTZOS0VBJmVuY3J5cHRlZElkPUEwMzA3Mjc3M1RXS1QxRFAxWU84VyZlbmNyeXB0ZWRBZElkPUEwNDg3NzMyMTUyMUwxVFQ4QlhGUyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&linkCode=li2&tag=sripriyankama-20&linkId=d2203259a1d9a1186e69a12177736726&language=en_US&ref_=as_li_ss_il',
-    imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09B7NQT2K&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sripriyankama-20&language=en_US',
-  },
-  {
     id: 7,
     name: 'Govee Smart Light Bulbs',
     description: 'WiFi Bluetooth Color Changing Light Bulbs, Music Sync, 54 Dynamic Scenes,',
