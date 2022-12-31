@@ -60,9 +60,15 @@ const products = [
     href: 'https://www.amazon.com/Govee-Changing-Dynamic-Bluetooth-Assistant/dp/B09B7NQT2K?crid=DSRRWFM8UN08&keywords=govee%2Bsmart%2Bplug%2Bbulb&qid=1671860711&sprefix=govee%2Bsmart%2Bplug%2Bbulb%2Caps%2C155&sr=8-4-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFOUFZHN1VGVE5CRUUmZW5jcnlwdGVkSWQ9QTA4MDczNzUxMjJETkYxUklEVTI3JmVuY3J5cHRlZEFkSWQ9QTA0MDIwNjAxVFczUjlNWDhCUk9OJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1&linkCode=li2&tag=sripriyankama-20&linkId=948553b6b99789a08cae73cfb410d1b1&language=en_US&ref_=as_li_ss_il',
     imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09B7NQT2K&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sripriyankama-20&language=en_US',
   },
+  {
+    id: 8,
+    name: 'Govee LED Strip Lights - Trash Pickup Automation',
+    description: 'WiFi Bluetooth Color Changing Light Bulbs, Music Sync, 54 Dynamic Scenes,',
+    href: 'https://www.amazon.com/gp/product/B08YDGL4Q7?ie=UTF8&th=1&linkCode=li3&tag=sripriyankama-20&linkId=8bd2b4a351ff1009ac10d4d1df6041f5&language=en_US&ref_=as_li_ss_il',
+    imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08YDGL4Q7&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sripriyankama-20&language=en_US',
+  },
 
 ]
-
 function LinkIcon(props) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
