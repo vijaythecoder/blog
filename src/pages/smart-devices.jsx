@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Head from 'next/head'
+import { Container } from '@/components/Container'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
@@ -9,6 +10,8 @@ import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import {Prose} from "@/components/Prose";
+import Link from "next/link";
+import {GitHubIcon, InstagramIcon, TikTok, TwitterIcon} from "@/components/SocialIcons";
 
 const products = [
   {
@@ -73,10 +76,43 @@ function LinkIcon(props) {
   )
 }
 
+function SocialLink({ icon: Icon, ...props }) {
+  return (
+      <Link className="group -m-1 p-1" {...props} target="_blank">
+        <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+      </Link>
+  )
+}
+
 export default function Links() {
   return (
     <>
+      <Container>
+        <div className="flex gap-6 mt-6">
+          <SocialLink
+              href="https://tiktok.com/@vijaysmarthome"
+              aria-label="Follow on LinkedIn"
+              icon={TikTok}
+          />
+          <SocialLink
+              href="https://twitter.com/vijaytupakula"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
+          />
+          <SocialLink
+              href="https://instagram.com/vijaysmarthome"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
+          />
+          <SocialLink
+              href="https://github.com/vijaythecoder"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+          />
+        </div>
+      </Container>
       <Head>
+
         <title>Smart Devices - Vijay Tupakula</title>
         <meta
           name="description"
@@ -87,7 +123,7 @@ export default function Links() {
         title="Links to the Products that I show in my videos."
         intro="You can find multiple products below that are from the videos I have shown on TikTok or Instagram or Youtube. Just an FYI that some of them are affiliate smartDevices."
       >
-    <hr/>
+        <hr className="my-4" />
         <div className="bg-white">
 
             <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
