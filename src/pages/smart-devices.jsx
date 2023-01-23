@@ -2,18 +2,19 @@ import Image from 'next/image'
 import Head from 'next/head'
 import { Container } from '@/components/Container'
 
-import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
 import {Prose} from "@/components/Prose";
 import Link from "next/link";
 import {GitHubIcon, InstagramIcon, TikTok, TwitterIcon} from "@/components/SocialIcons";
 
 const products = [
+  {
+    id: 1,
+    name: 'Wyze Smart Lock',
+    description: 'Wyze Fingerprint Bluetooth Smart Lock - Keyless Entry via Code, Fingerprint, or App, Complete Deadbolt Replacement, Installs in 10 Minutes',
+    href: 'https://www.amazon.com/Fingerprint-Bluetooth-Replacement-Weatherproof-Scheduled/dp/B09R38VVXF?crid=1DLS2R46VQZ2F&keywords=wyze+smart+lock&qid=1674445938&sprefix=wyze+smart+lock%2Caps%2C175&sr=8-6&linkCode=li3&tag=sripriyankama-20&linkId=cda55db0e7f1e1c0fb187175b87b6db2&language=en_US&ref_=as_li_ss_il',
+    imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09R38VVXF&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sripriyankama-20&language=en_US',
+  },
   {
     id: 1,
     name: 'Kasa Smart Plug',
