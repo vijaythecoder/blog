@@ -265,7 +265,8 @@ export default function Home({ articles }) {
             Vijay Tupakula <br/> <span className="text-3xl text-teal-500">on a mission to create future Smart Homes 🏡</span>
           </h1>
           <br/>
-          <Link className="px-2 py-6 bg-blue-500 rounded text-white w-full w-100 block text-center" href="/smart-devices">Click here for the Smart Products in my Videos</Link>
+          <Link className="px-2 py-6 bg-blue-500 rounded text-white w-full w-100 block text-center" href="/smart-devices">Links to the Products in my Videos</Link>
+          <Link className="px-2 mt-2 py-6 bg-green-500 rounded text-white w-full w-100 block text-center" href="/smart-devices">1-1 Consultation for your Smart Home 🏡</Link>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Vijay, a software engineer and an entrepreneur based in Austin, TX.
             I’m also tinkerer of many things. Been doing lot of Home Automation as a Hobby and sharing the wisdom with my followers on TikTok.
