@@ -145,6 +145,9 @@ export default function Links() {
                       {products.length !== product.id && <hr className="mt-6 md:hidden"/>}
                   </div>
               ))}
+              <a href="https://amzn.to/3YOzpb0">One</a>
+              <a href="https://amzn.to/3XBVYP4">Two</a>
+              <a href="https://amzn.to/410F2og">Three</a>
             </div>
           </div>
       </SimpleLayout>
