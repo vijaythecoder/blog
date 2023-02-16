@@ -146,8 +146,8 @@ export default function Links() {
                   </div>
               ))}
               <a href="https://amzn.to/3YOzpb0">One</a>
-              <a href="https://amzn.to/3XBVYP4">Two</a>
-              <a href="https://amzn.to/410F2og">Three</a>
+              <a href="https://amzn.to/3I2IuGx">Two</a>
+              <a href="https://amzn.to/3lIzEpW">Three</a>
             </div>
           </div>
       </SimpleLayout>
