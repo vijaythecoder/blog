@@ -64,6 +64,14 @@ const products = [
     href: 'https://www.amazon.com/gp/product/B08YDGL4Q7?ie=UTF8&th=1&linkCode=ll1&tag=vijaytupakula-20&linkId=d0fcb5a1d8f5597106af7945b50c131e&language=en_US&ref_=as_li_ss_tl',
     imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08YDGL4Q7&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sripriyankama-20&language=en_US',
   },
+  {
+    id: 9,
+    name: 'Ring Yard Sign',
+    description: 'WiFi Bluetooth Color Changing Light Bulbs, Music Sync, 54 Dynamic Scenes,',
+    href: 'https://www.amazon.com/Ring-53-021459-Solar-Security-Sign/dp/B07P3FQ8SF?keywords=ring+yard+sign&qid=1676993655&sprefix=ring+ya%2Caps%2C138&sr=8-3&linkCode=ll1&tag=vijaytupakula-20&linkId=0dd3f9d641c9058144e6086e547f593a&language=en_US&ref_=as_li_ss_tl',
+    imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07P3FQ8SF&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=vijaytupakula-20&language=en_US',
+  },
+
 
 ]
 function LinkIcon(props) {
