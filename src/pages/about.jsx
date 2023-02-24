@@ -93,7 +93,7 @@ export default function About() {
                 Follow on GitHub
               </SocialLink>
               <SocialLink
-                href="mailto:hello@vijaykumar.me"
+                href="mailto:sponsor@vijaykumar.me"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >

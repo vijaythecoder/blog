@@ -16,7 +16,14 @@ const products = [
     imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09R38VVXF&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=sripriyankama-20&language=en_US',
   },
   {
-    id: 1,
+    id: 2,
+    name: 'CradleWise Smart Crib',
+    description: '4-in-1 crib, reinvented: How to choose grow-with-baby nursery items',
+    href: 'https://cradlewise.com?aff=26',
+    imageSrc: 'https://cradlewise.com/_next/image?url=https%3A%2F%2Fs3.us-west-1.amazonaws.com%2Fassets.cradlewise.com%2Fwp-content%2Fuploads%2F2022%2F11%2F4-in-1-hero-crib-image-1.png&w=1920&q=75',
+  },
+  {
+    id: 3,
     name: 'Kasa Smart Plug',
     description: 'This is a smart plug that can be used for any electric appliances',
     href: 'https://amzn.to/3xl31RL',
