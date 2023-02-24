@@ -63,7 +63,15 @@ export function ArticleLayout({
                   <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
                   <span className="ml-3">{formatDate(meta.date)}</span>
                 </time>
-                <img className="mt-4 rounded-md" src={'https://source.unsplash.com/' + meta.cover + '/600x300'} alt=""/>
+                {
+                  meta.cover &&
+                  <img className="mt-4 rounded-md" src={'https://source.unsplash.com/' + meta.cover + '/600x300'} alt=""/>
+                }
+                {
+                  meta.cover_url !== '' &&
+                  <img className="mt-4 rounded-md" src={meta.cover_url} alt=""/>
+                }
+
               </header>
 
               <Prose className="mt-6">{children}</Prose>
