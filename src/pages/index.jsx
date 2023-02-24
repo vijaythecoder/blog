@@ -266,7 +266,7 @@ export default function Home({ articles }) {
           </h1>
           <br/>
           <Link className="px-2 py-6 bg-green-500 rounded text-white w-full w-100 block text-center" target="_blank" href="https://tidycal.com/vijaytupakula">1-1 Consultation for your Smart Home 🏡</Link>
-          <Link className="px-1 py-3 mt-2 bg-pink-500 rounded text-white w-full w-100 block text-center" href="https://cradlewise.com?aff=26">CradleWise</Link>
+          <Link className="px-1 py-3 mt-2 bg-pink-500 rounded text-white w-full w-100 block text-center" href="https://cradlewise.com?aff=26">CradleWise - Smart Crib</Link>
           <Link className="px-1 py-3 mt-2 bg-blue-500 rounded text-white w-full w-100 block text-center" href="/smart-devices">Amazon Links</Link>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Vijay, a software engineer and an entrepreneur based in Austin, TX.
