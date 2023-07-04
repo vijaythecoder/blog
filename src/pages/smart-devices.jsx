@@ -10,6 +10,13 @@ import {GitHubIcon, InstagramIcon, TikTok, TwitterIcon} from "@/components/Socia
 const products = [
   {
     id: 1,
+    name: 'Vivid Storm 100" screen',
+    description: 'VIVID STORM SINCE 2004-Projection Screen S PRO 100 inch Motor Rollable Laser TV Tensioned Floor Screen Ambient Light Rejecting Suit for Ultra-Short Throw Laser projecror,VWSDSTUST100H',
+    href: 'https://amzn.to/3prXqJ5',
+    imageSrc: '//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B087F23C6J&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=vijaytupakula-20&language=en_US',
+  },
+  {
+    id: 1,
     name: 'Wyze Smart Lock',
     description: 'Wyze Fingerprint Bluetooth Smart Lock - Keyless Entry via Code, Fingerprint, or App, Complete Deadbolt Replacement, Installs in 10 Minutes',
     href: 'https://amzn.to/3XrRVF6',
