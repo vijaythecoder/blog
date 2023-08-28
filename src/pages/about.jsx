@@ -67,7 +67,8 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <h3 className="text-2xl font-bold">Currently</h3>
-              <p>I work as a senior software engineer at an ecommerce company based out of USA. I also tinker lot of machines or electronic devices to create a better home, Yes, lot of home automation. I post my home automation tutorials and demos on
+              <p>I am co-founder of <a className="text-indigo-600 font-bold" href="https://getcate.ai"> Cate AI </a> - A Virtual Phone assistant for restaurants that answers incoming calls to take orders and answer questions</p>
+              <p> I also tinker lot of machines or electronic devices to create a better home, Yes, lot of home automation. I post my home automation tutorials and demos on
                  <a className="text-indigo-500" href="https://www.tiktok.com/@vijaysmarthome" target={'_blank'} rel="noreferrer"> TikTok</a> if you are interested</p>
               <h3 className="text-2xl font-bold">History</h3>
               <p>I started learning web technologies in 2006, at the age of 15, with html. I remember getting excited with html and css. I am self-learner and from that day I started exploring internet aiming to earn money with the skills I had at that time, its fun looking back at the web pages I used to make. Got one of my blog approved for google ad sense after lot of tries, the blog is based on Ethical Hacking, yes I have spent enough time to learn myself about Ethical hacking.</p>
