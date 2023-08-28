@@ -67,7 +67,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <h3 className="text-2xl font-bold">Currently</h3>
-              <p>I am co-founder of <a className="text-indigo-600 font-bold" href="https://getcate.ai"> Cate AI </a> - A Virtual Phone assistant for restaurants that answers incoming calls to take orders and answer questions</p>
+              <p>I am the co-founder of <a className="text-indigo-600 font-bold" href="https://getcate.ai"> Cate AI </a> - A Virtual Phone assistant for restaurants that answers incoming calls to take orders and answer questions</p>
               <p> I also tinker lot of machines or electronic devices to create a better home, Yes, lot of home automation. I post my home automation tutorials and demos on
                  <a className="text-indigo-500" href="https://www.tiktok.com/@vijaysmarthome" target={'_blank'} rel="noreferrer"> TikTok</a> if you are interested</p>
               <h3 className="text-2xl font-bold">History</h3>
