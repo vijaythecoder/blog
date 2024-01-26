@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon, TikTok,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/IMG_8724.jpeg'
+import portraitImage from '@/images/avatar.jpeg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -76,7 +76,7 @@ export default function About() {
               <p>Around 2012, I got a partime job from PHPPOS for the skills I have like php, mysql, codeigniter, html, css, jquery and I am good at them. While my part time goes well as a backend developer with minimum html and css work, I explored into themeforest market where I could sell my own themes, to do that I have to be really good at themes and after applying for more than 17 times, one of my item is approved and during this process of approval (8 months) I got really good with designing too. That is the time I started my own company Bootstrap Guru . My part time job and startup demanded me to learn lot of things as a web developer and I really liked it.</p>
               <p>Over the years, I have worked on many freelance projects working to individuals and big companies. I have gained lot of skills on web development and few years ago fell in love with javascript (mainly es6 and VueJS). I have worked on many of own projects too and the big one of them is Larapos I lead many projects with many developers, reviewed the code, distribute the work basing on their skills, choose the best the technologies for a project. I have successfully completed custom projects to production.</p>
 
-              <p>I am also interested in Internet of things and using javascript I made lot of hardware projects. I do play PS4 games, binge watch.</p>
+              <p>I am also interested in Internet of things and using javascript I made lot of hardware projects. Lot of Sim Racing</p>
             </div>
           </div>
           <div className="lg:pl-20">

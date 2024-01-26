@@ -5,7 +5,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/avatar.png'
+import avatarImage from '@/images/avatar-circle.png'
 import { Fragment, useEffect, useRef } from 'react'
 
 function CloseIcon(props) {
@@ -224,7 +224,7 @@ function AvatarContainer({ className, ...props }) {
 function Avatar({ large = false, className, ...props }) {
   return (
     <Link
-      href="/"
+      href="/about"
       aria-label="Home"
       className={clsx(className, 'pointer-events-auto')}
       {...props}
